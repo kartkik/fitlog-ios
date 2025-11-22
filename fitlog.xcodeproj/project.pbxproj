@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4810940A2ED22690002F7588 /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481094092ED22690002F7588 /* WorkoutScreen.swift */; };
+		4810940D2ED22751002F7588 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810940C2ED22751002F7588 /* HomeView.swift */; };
+		481094102ED227D1002F7588 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810940F2ED227D1002F7588 /* HeaderView.swift */; };
+		481094132ED22890002F7588 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481094122ED22890002F7588 /* AppColors.swift */; };
+		481094192ED239BF002F7588 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 481094152ED22A80002F7588 /* Ubuntu-Bold.ttf */; };
+		4810941A2ED239BF002F7588 /* Ubuntu-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 481094162ED22A80002F7588 /* Ubuntu-Medium.ttf */; };
+		4810941B2ED239BF002F7588 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 481094172ED22A80002F7588 /* Ubuntu-Regular.ttf */; };
 		486E870C2ED1C98B00C364ED /* fitlogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E870B2ED1C98B00C364ED /* fitlogApp.swift */; };
 		486E870E2ED1C98B00C364ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486E870D2ED1C98B00C364ED /* ContentView.swift */; };
 		486E87102ED1C99100C364ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 486E870F2ED1C99100C364ED /* Assets.xcassets */; };
@@ -36,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		481094092ED22690002F7588 /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
+		4810940C2ED22751002F7588 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4810940F2ED227D1002F7588 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		481094122ED22890002F7588 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		481094152ED22A80002F7588 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		481094162ED22A80002F7588 /* Ubuntu-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Medium.ttf"; sourceTree = "<group>"; };
+		481094172ED22A80002F7588 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		481094182ED23557002F7588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		486E87082ED1C98B00C364ED /* fitlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fitlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		486E870B2ED1C98B00C364ED /* fitlogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fitlogApp.swift; sourceTree = "<group>"; };
 		486E870D2ED1C98B00C364ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,6 +90,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		481094052ED22628002F7588 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		481094062ED22631002F7588 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				481094082ED22663002F7588 /* WorkoutScreen */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		481094072ED22640002F7588 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		481094082ED22663002F7588 /* WorkoutScreen */ = {
+			isa = PBXGroup;
+			children = (
+				481094092ED22690002F7588 /* WorkoutScreen.swift */,
+			);
+			path = WorkoutScreen;
+			sourceTree = "<group>";
+		};
+		4810940B2ED2272D002F7588 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4810940C2ED22751002F7588 /* HomeView.swift */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		4810940E2ED227BF002F7588 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4810940F2ED227D1002F7588 /* HeaderView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		481094112ED2284F002F7588 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				486E870F2ED1C99100C364ED /* Assets.xcassets */,
+				481094122ED22890002F7588 /* AppColors.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		481094142ED22A5A002F7588 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				481094152ED22A80002F7588 /* Ubuntu-Bold.ttf */,
+				481094162ED22A80002F7588 /* Ubuntu-Medium.ttf */,
+				481094172ED22A80002F7588 /* Ubuntu-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		486E86FF2ED1C98B00C364ED = {
 			isa = PBXGroup;
 			children = (
@@ -98,9 +178,16 @@
 		486E870A2ED1C98B00C364ED /* fitlog */ = {
 			isa = PBXGroup;
 			children = (
+				481094182ED23557002F7588 /* Info.plist */,
+				481094142ED22A5A002F7588 /* Fonts */,
+				4810940E2ED227BF002F7588 /* Shared */,
+				481094072ED22640002F7588 /* Utils */,
+				481094052ED22628002F7588 /* Core */,
+				481094062ED22631002F7588 /* Features */,
+				4810940B2ED2272D002F7588 /* HomeScreen */,
+				481094112ED2284F002F7588 /* Resources */,
 				486E870B2ED1C98B00C364ED /* fitlogApp.swift */,
 				486E870D2ED1C98B00C364ED /* ContentView.swift */,
-				486E870F2ED1C99100C364ED /* Assets.xcassets */,
 				486E87142ED1C99200C364ED /* Persistence.swift */,
 				486E87162ED1C99200C364ED /* fitlog.xcdatamodeld */,
 				486E87112ED1C99100C364ED /* Preview Content */,
@@ -237,6 +324,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				481094192ED239BF002F7588 /* Ubuntu-Bold.ttf in Resources */,
+				4810941A2ED239BF002F7588 /* Ubuntu-Medium.ttf in Resources */,
+				4810941B2ED239BF002F7588 /* Ubuntu-Regular.ttf in Resources */,
 				486E87132ED1C99100C364ED /* Preview Assets.xcassets in Resources */,
 				486E87102ED1C99100C364ED /* Assets.xcassets in Resources */,
 			);
@@ -265,8 +355,12 @@
 			files = (
 				486E87182ED1C99200C364ED /* fitlog.xcdatamodeld in Sources */,
 				486E87152ED1C99200C364ED /* Persistence.swift in Sources */,
+				4810940A2ED22690002F7588 /* WorkoutScreen.swift in Sources */,
+				4810940D2ED22751002F7588 /* HomeView.swift in Sources */,
 				486E870E2ED1C98B00C364ED /* ContentView.swift in Sources */,
+				481094132ED22890002F7588 /* AppColors.swift in Sources */,
 				486E870C2ED1C98B00C364ED /* fitlogApp.swift in Sources */,
+				481094102ED227D1002F7588 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +521,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"fitlog/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fitlog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -455,6 +550,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"fitlog/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fitlog/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
