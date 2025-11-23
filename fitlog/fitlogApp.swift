@@ -13,7 +13,7 @@ struct fitlogApp: App {
 
     var body: some Scene {
         WindowGroup {
-            HomeView()
+            GlassyTabBarView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
