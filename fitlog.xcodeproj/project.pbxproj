@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480D211A2ED34328007C90C5 /* SessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D21192ED34328007C90C5 /* SessionModel.swift */; };
+		480D211C2ED3454D007C90C5 /* GlassyTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D211B2ED3454D007C90C5 /* GlassyTabBarView.swift */; };
+		480D21212ED345ED007C90C5 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D21202ED345ED007C90C5 /* HomeViewModel.swift */; };
+		480D21272ED3476B007C90C5 /* AddWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D21262ED3476B007C90C5 /* AddWorkoutView.swift */; };
+		480D21292ED34978007C90C5 /* AddWorkoutViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D21282ED34978007C90C5 /* AddWorkoutViewModel.swift */; };
+		480D212B2ED34C0F007C90C5 /* CircularDurationPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D212A2ED34C0F007C90C5 /* CircularDurationPicker.swift */; };
 		4810940A2ED22690002F7588 /* WorkoutScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481094092ED22690002F7588 /* WorkoutScreen.swift */; };
 		4810940D2ED22751002F7588 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810940C2ED22751002F7588 /* HomeView.swift */; };
 		481094102ED227D1002F7588 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4810940F2ED227D1002F7588 /* HeaderView.swift */; };
@@ -43,6 +49,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		480D21192ED34328007C90C5 /* SessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionModel.swift; sourceTree = "<group>"; };
+		480D211B2ED3454D007C90C5 /* GlassyTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassyTabBarView.swift; sourceTree = "<group>"; };
+		480D21202ED345ED007C90C5 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		480D21262ED3476B007C90C5 /* AddWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutView.swift; sourceTree = "<group>"; };
+		480D21282ED34978007C90C5 /* AddWorkoutViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWorkoutViewModel.swift; sourceTree = "<group>"; };
+		480D212A2ED34C0F007C90C5 /* CircularDurationPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularDurationPicker.swift; sourceTree = "<group>"; };
 		481094092ED22690002F7588 /* WorkoutScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutScreen.swift; sourceTree = "<group>"; };
 		4810940C2ED22751002F7588 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4810940F2ED227D1002F7588 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
@@ -90,9 +102,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		480D21172ED34304007C90C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		480D211D2ED345A6007C90C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				480D21192ED34328007C90C5 /* SessionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		480D211E2ED345B7007C90C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				480D21202ED345ED007C90C5 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		480D21222ED34726007C90C5 /* AddWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				480D21252ED3474A007C90C5 /* ViewModel */,
+				480D21242ED34743007C90C5 /* Model */,
+				480D21232ED34739007C90C5 /* View */,
+			);
+			path = AddWorkout;
+			sourceTree = "<group>";
+		};
+		480D21232ED34739007C90C5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				480D21262ED3476B007C90C5 /* AddWorkoutView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		480D21242ED34743007C90C5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		480D21252ED3474A007C90C5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				480D21282ED34978007C90C5 /* AddWorkoutViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		481094052ED22628002F7588 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				480D21172ED34304007C90C5 /* Model */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -100,6 +169,8 @@
 		481094062ED22631002F7588 /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				480D21222ED34726007C90C5 /* AddWorkout */,
+				4810940B2ED2272D002F7588 /* HomeScreen */,
 				481094082ED22663002F7588 /* WorkoutScreen */,
 			);
 			path = Features;
@@ -123,6 +194,8 @@
 		4810940B2ED2272D002F7588 /* HomeScreen */ = {
 			isa = PBXGroup;
 			children = (
+				480D211E2ED345B7007C90C5 /* ViewModel */,
+				480D211D2ED345A6007C90C5 /* Model */,
 				4810940C2ED22751002F7588 /* HomeView.swift */,
 			);
 			path = HomeScreen;
@@ -132,6 +205,8 @@
 			isa = PBXGroup;
 			children = (
 				4810940F2ED227D1002F7588 /* HeaderView.swift */,
+				480D211B2ED3454D007C90C5 /* GlassyTabBarView.swift */,
+				480D212A2ED34C0F007C90C5 /* CircularDurationPicker.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -184,7 +259,6 @@
 				481094072ED22640002F7588 /* Utils */,
 				481094052ED22628002F7588 /* Core */,
 				481094062ED22631002F7588 /* Features */,
-				4810940B2ED2272D002F7588 /* HomeScreen */,
 				481094112ED2284F002F7588 /* Resources */,
 				486E870B2ED1C98B00C364ED /* fitlogApp.swift */,
 				486E870D2ED1C98B00C364ED /* ContentView.swift */,
@@ -353,13 +427,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				480D212B2ED34C0F007C90C5 /* CircularDurationPicker.swift in Sources */,
 				486E87182ED1C99200C364ED /* fitlog.xcdatamodeld in Sources */,
+				480D21212ED345ED007C90C5 /* HomeViewModel.swift in Sources */,
+				480D211C2ED3454D007C90C5 /* GlassyTabBarView.swift in Sources */,
 				486E87152ED1C99200C364ED /* Persistence.swift in Sources */,
+				480D211A2ED34328007C90C5 /* SessionModel.swift in Sources */,
 				4810940A2ED22690002F7588 /* WorkoutScreen.swift in Sources */,
 				4810940D2ED22751002F7588 /* HomeView.swift in Sources */,
+				480D21292ED34978007C90C5 /* AddWorkoutViewModel.swift in Sources */,
 				486E870E2ED1C98B00C364ED /* ContentView.swift in Sources */,
 				481094132ED22890002F7588 /* AppColors.swift in Sources */,
 				486E870C2ED1C98B00C364ED /* fitlogApp.swift in Sources */,
+				480D21272ED3476B007C90C5 /* AddWorkoutView.swift in Sources */,
 				481094102ED227D1002F7588 /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
